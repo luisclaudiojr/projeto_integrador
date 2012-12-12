@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="pt">
+<title>PADILHA HOTEL</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
+ <link rel="stylesheet" href="script/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="script/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="script/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="script/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="script/nivo-slider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="script/style.css" type="text/css" media="screen" />
+</head>
+
+<body>
+
+<div id="header">
+	<div class="wrap">
+    	<div id="logo">
+			<a href="index.html"><img src="img/logomarca.png"  alt="Padilha Hotel" /></a>
+        </div>
+        <ul id="menu">
+				<li><a href="index.html"  class="current-page">Inicio</a></li>
+			<li><a href="hotel.html"  >O Hotel</a></li>
+            <li><a href="servicos.html"  >Serviços</a></li>
+            <li><a href="contato.html" >Contato</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="content">
+	<div class="wrap">
+    
+
+<div id="estrutura">
+<!-- Gera o Slider com as imagens-->
+    <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="img/salao.jpg" data-thumb="img/salao.png"  />
+                <img src="img/quarto.png" data-thumb="script/images/quarto.png"  title="Nossos Quartos são equipados com os mais diversos tipos de tecnologia" />
+                <img src="img/sala.jpg" data-thumb="img/sala.jpg"  data-transition="slideInLeft"  title="Aqui você encontra as mais belas paisagens" />
+                <img src="img/paisagem.png" data-thumb="img/paisagem.png"  title="Aqui você encontra as mais belas paisagens" />
+            </div>
+        </div>
+	
+    </div>
+</div>
+	</div>
+<script type="text/javascript" src="script/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="script/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+<div id="footer">
+
+	<div id="logohotel">
+		<img src="img/logomarca.png">			
+	</div>
+
+<SPAN style="margin-top: 10px; float: right;  font-size: 12px;">&copy; Desenvolvido por Luís Claudio Padilha Junior. Todos os direitos reservados</SPAN>
+
+</div>	
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="pt">
+<title>PADILHA HOTEL</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
+ <link rel="stylesheet" href="script/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="script/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="script/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="script/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="script/nivo-slider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="script/style.css" type="text/css" media="screen" />
+</head>
+
+<body>
+
+<div id="header">
+	<div class="wrap">
+    	<div id="logo">
+			<a href="index.html"><img src="img/logomarca.png"  alt="Padilha Hotel" /></a>
+        </div>
+        <ul id="menu">
+            <li><a href="index.html" >Inicio</a></li>
+			<li><a href="hotel.html"  >O Hotel</a></li>
+            <li><a href="servicos.html"  >Serviços</a></li>
+            <li><a href="contato.html" class="current-page" >Contato</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="content">
+	<div class="wrap">
+    
+
+<div id="estrutura">
+<form name="envform" action="mailto:luisclaudio.junior@hotmail.com" method="POST">
+	<fieldset style="width:50%;">
+		<legend>Fale Conosco</legend>
+		<center>
+		<p>
+				<label >Nome:</label>
+				<input type="text"  name='nome' required maxlength="30" size="30"> 
+		</P>
+		<p>
+				<label >Email:</label>
+		<br>
+				<input type="email" name='email' required  maxlength="30" size="30"> 
+		</P>
+		<p>
+				<label >Telefone:</label>
+		<br>
+				<input type="text"   name='telefone' required onkeypress="return txtBoxFormat(this, '(99)99999-9999', event);"  maxlength="13" size="13"> 
+		</p>
+		<p>
+				<label >Cidade: </label>
+				<input type="text" maxlength="30" required name='cidade'   size="30"> </p>
+		<p>
+		<label>	Estado:</label>
+		<select name="estado" size="1" id="select">
+		  <option selected value='--'>--</option>
+		  <option VALUE='AC'> AC</option>
+		  <option value='AL'>AL</option>
+		  <option value='AM'>AM</option>
+		  <option value='AP'>AP</option>
+		  <option value='BA'>BA</option>
+		  <option value='CE'>CE</option>
+		  <option value='ES'>ES</option>
+		  <option value='DF'>DF</option>
+		  <option value='GO'>GO</option>
+		  <option value='MA'>MA</option>
+		  <option value='MG'>MG</option>
+		  <option value='MS'>MS</option>
+		  <option value='MT'>MT</option>
+		  <option value='PA'>PA</option>
+		  <option value='PA'>PB</option>
+		  <option value='PE'> PE </option>
+		  <option value='PI'>PI</option>
+		  <option value='PR'>PR</option>
+		  <option value='RJ'>RJ</option>
+		  <option value='RN'>RN</option>
+		  <option value='RO'> RO</option>
+		  <option value='RR'>RR</option>
+		  <option value='RS'>RS</option>
+		  <option value='SC'>SC</option>
+		  <option value='SE'>SE</option>
+		  <option value='SP'>SP</option>
+		  <option value='TO'>TO</option>
+		</select><br></P>	
+		<p>
+		<label>Comentários: </label>
+				<textarea name="comentarios"  cols="40" rows="8"  ></textarea>
+		</p></center>
+	<p>
+		<center></p><input type="submit" name="Enviar"  value="Enviar" />	<input type="reset"  value="Apagar">
+	</center>
+		</p>
+</fieldset>
+</form>
+
+	
+    </div>
+</div>
+	</div>
+<div id="footer">
+		<div id="logohotel">
+						<img src="img/logomarca.png">
+					</div>
+		<SPAN style="margin-top: 10px; float: right;  font-size: 12px;">&copy; Desenvolvido por Luís Claudio Padilha Junior. Todos os direitos reservados</SPAN>
+
+</div>	
+
+</body>
+</html>
