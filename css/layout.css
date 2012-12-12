@@ -53,14 +53,7 @@ ul				{list-style:none; padding:0 0 15px 15px;}
 
 /* FOOTER */
 #footer {
-	display:block; background: rgb(1,1,1); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(1,1,1,1) 0%, rgba(1,1,1,1) 10%, rgba(196,153,16,1) 11%, rgba(196,153,16,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(1,1,1,1)), color-stop(10%,rgba(1,1,1,1)), color-stop(11%,rgba(196,153,16,1)), color-stop(100%,rgba(196,153,16,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(1,1,1,1) 0%,rgba(1,1,1,1) 10%,rgba(196,153,16,1) 11%,rgba(196,153,16,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(1,1,1,1) 0%,rgba(1,1,1,1) 10%,rgba(196,153,16,1) 11%,rgba(196,153,16,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(1,1,1,1) 0%,rgba(1,1,1,1) 10%,rgba(196,153,16,1) 11%,rgba(196,153,16,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(1,1,1,1) 0%,rgba(1,1,1,1) 10%,rgba(196,153,16,1) 11%,rgba(196,153,16,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010101', endColorstr='#c49910',GradientType=0 ); /* IE6-9 */ height:101px; text-align:center; color:#CCC; font-size:12px; padding-top:40px; margin-top:90px;
+	display:block; background: #808D60; padding:40px;
 }
 
 #footer span		{color:#FFF; padding-top:7px; display:block;}
