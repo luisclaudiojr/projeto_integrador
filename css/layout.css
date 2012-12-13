@@ -61,30 +61,8 @@ ul				{list-style:none; padding:0 0 15px 15px;}
 
 
 div#mapa {
-	margin-left: 30%;
+	margin-left: 75%;
 	font-size: 12px;
-	margin-top: -30px;
-}
-
-ul#ulmapa{
-	margin: 1% 0 0 0;
-	padding: 0 1% 0 1%;
-	color: #fff;
-	list-style: none;
-	float: left;
-	border-left: 2px solid #E8E8E8;
-}
-
-li#limapa{
-	padding-bottom: 15px;
-	padding-left: 4%;
-	
-}
-
-div#logohotel{
-	margin-top:-20px;
-	margin-right: 63%	;
-
 }
 
 
@@ -94,7 +72,7 @@ div#rodape{
 }
 
 fieldset {
-	border: 1px solid #C49910;
+	border: 1px solid #808D60;
 	width: 70%;
 	font:13px "Verdana", sans-serif;
 	margin: 0px auto;
@@ -102,7 +80,7 @@ fieldset {
 
 legend {
 	color: #000;
-	background: #C49910;
+	background: #808D60;
 	border: 1px solid #000;
 	padding: 3px 6px;
 }
