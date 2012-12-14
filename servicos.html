@@ -1,68 +1,81 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="content-language" content="pt">
-<title>PADILHA HOTEL</title>
-<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
- <link rel="stylesheet" href="script/themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="script/themes/light/light.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="script/themes/dark/dark.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="script/themes/bar/bar.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="script/nivo-slider.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="script/style.css" type="text/css" media="screen" />
-</head>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="pt">
+		<title>PADILHA HOTEL</title>
+		<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
+		<link rel="shortcut icon" href="img/icone.gif">
+		<link rel="stylesheet" href="script/themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/themes/light/light.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/themes/dark/dark.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/themes/bar/bar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/nivo-slider.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/style.css" type="text/css" media="screen" />
+	</head>
 
-<body>
+	<body>
 
-<div id="header">
-	<div class="wrap">
-    	<div id="logo">
-			<a href="index.html"><img src="img/logomarca.png"  alt="Padilha Hotel" /></a>
-        </div>
-        <ul id="menu">
-           	<li><a href="index.html" >Inicio</a></li>
-			<li><a href="hotel.html"  >O Hotel</a></li>
-            <li><a href="servicos.html" class="current-page" >Serviços</a></li>
-            <li><a href="localizacao.html">Localização</a></li>
-			<li><a href="contato.html" >Contato</a></li>
-        </ul>
-    </div>
-</div>
+		<div id="header">
+			<div class="wrap">
+				<div id="logo">
+					<a href="index.html"><img src="img/logomarca.png"  alt="Padilha Hotel" /></a>
+				</div>
+				<ul id="menu">
+					<li><a href="index.html" >Inicio</a></li>
+					<li><a href="hotel.html"  >O Hotel</a></li>
+					<li><a href="servicos.html" class="current-page" >Serviços</a></li>
+					<li><a href="localizacao.html">Localização</a></li>
+					<li><a href="contato.html" >Contato</a></li>
+				</ul>
+			</div>
+		</div>
 
-<div id="content">
-	<div class="wrap">
-    
+		<div id="content">
+			<div class="wrap">
+				<div id="estrutura">
+					<div class="slider-wrapper theme-default">
+						<div id="slider" class="nivoSlider">
+							<img src="img/sauna.jpg" data-thumb="img/sauna.jpg"  data-transition="slideInLeft"   />
+							<img src="img/hotel3.jpg" data-thumb="hotel3.jpg" data-transition="slideInRight"   />
+							<img src="img/sala_leitura.jpg" data-thumb="img/sala_leitura.jpg"  data-transition="slideInLeft" />
+							<img src="img/academia.jpg" data-thumb="img/academia.jpg" data-transition="slideInRight"   />
+						</div>
+					</div>
+					<script type="text/javascript" src="script/jquery-1.7.1.min.js"></script>
+						<script type="text/javascript" src="script/jquery.nivo.slider.js"></script>
+						<script type="text/javascript">
+						$(window).load(function() {
+							$('#slider').nivoSlider();
+						});
+						</script>		
+					<p>Serviços
+					Além da localização única e da arquitetura ímpar, o Padilha Hotel destaca-se por seus serviços especiais:
+					</p>
+					<ul>
+					<li>Acessibilidade a portadoras de deficiência física</li>
+					<li>Baby-Sitter (possui custo adicional, verifique aqui os valores) </li>
+					<li>Cyber Point</li>
+					<li>Sauna</li>
+					<li>Piscina</li>
+					<li>Fotografia (revelação e acessórios para fotografia)</li>
+					<li>Heliponto</li>
+					<li>Lavanderia (possui custo adicional)</li>
+					<li>Library</li>
+					<li>Lojas & Conveniência</li>
+					<li>Moda e Souvenirs</li>
+					<li>Sala de Leitura</li>
 
-<div id="estrutura">
-<p>Serviços
-Além da localização única e da arquitetura ímpar, o Padilha Hotel destaca-se por seus serviços especiais:
-</p>
-<ul>
-<li>Acessibilidade a portadoras de deficiência física</li>
-<li>Baby-Sitter (possui custo adicional, verifique aqui os valores) </li>
-<li>Cyber Point</li>
-<li>Sauna</li>
-<li>Piscina</li>
-<li>Fotografia (revelação e acessórios para fotografia)</li>
-<li>Heliponto</li>
-<li>Lavanderia (possui custo adicional)</li>
-<li>Library</li>
-<li>Lojas & Conveniência</li>
-<li>Moda e Souvenirs</li>
-<li>Sala de Leitura</li>
-
-<li>Salão de Beleza. (possui custo adicional)</li>
-<li>Serviço Médico 24h (possui custo adicional)</li>
-</ul>	
-    </div>
-</div>
-	</div>
-<div id="footer">
-
-<div id="rodape">
-<SPAN style="margin-top: 10px; text-align:center;  font-size: 12px;">&copy; Desenvolvido por Luís Claudio Padilha Junior. Todos os direitos reservados</SPAN>
-</div>	
-
-</body>
+					<li>Salão de Beleza. (possui custo adicional)</li>
+					<li>Serviço Médico 24h (possui custo adicional)</li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="rodape">
+			<SPAN style="margin-top: 10px; text-align:center;  font-size: 12px;">&copy; Desenvolvido por Luís Claudio Padilha Junior. Todos os direitos reservados</SPAN>
+			</div>	
+		</div>	
+	</body>
 </html>

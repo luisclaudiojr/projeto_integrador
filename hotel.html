@@ -1,96 +1,90 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="content-language" content="pt">
-<title>PADILHA HOTEL</title>
-<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
- <link rel="stylesheet" href="script/themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="script/themes/light/light.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="script/themes/dark/dark.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="script/themes/bar/bar.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="script/nivo-slider.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="script/style.css" type="text/css" media="screen" />
-</head>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="pt">
+		<title>PADILHA HOTEL</title>
+		<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
+		<link rel="shortcut icon" href="img/icone.gif">
+		<link rel="stylesheet" href="script/themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/themes/light/light.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/themes/dark/dark.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/themes/bar/bar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/nivo-slider.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="script/style.css" type="text/css" media="screen" />
+	</head>
 
-<body>
+	<body>
 
-<div id="header">
-	<div class="wrap">
-    	<div id="logo">
-			<a href="index.html"><img src="img/logomarca.png"  alt="Padilha Hotel" /></a>
-        </div>
-        <ul id="menu">
-         	<li><a href="index.html" >Inicio</a></li>
-			<li><a href="hotel.html" class="current-page" >O Hotel</a></li>
-            <li><a href="servicos.html" >Serviços</a></li>
-			<li><a href="localizacao.html">Localização</a></li>
-            <li><a href="contato.html" >Contato</a></li>
-        </ul>
-    </div>
-</div>
+		<div id="header">
+			<div class="wrap">
+				<div id="logo">
+					<a href="index.html"><img src="img/logomarca.png"  alt="Padilha Hotel" /></a>
+				</div>
+				<ul id="menu">
+					<li><a href="index.html" >Inicio</a></li>
+					<li><a href="hotel.html"  class="current-page">O Hotel</a></li>
+					<li><a href="servicos.html"  >Serviços</a></li>
+					<li><a href="localizacao.html">Localização</a></li>
+					<li><a href="contato.html" >Contato</a></li>
+				</ul>
+			</div>
+		</div>
 
-<div id="content">
-	<div class="wrap">
-    
+		<div id="content">
+			<div class="wrap">
+				<div id="estrutura">
+				<!-- Gera o Slider com as imagens-->
+					<div class="slider-wrapper theme-default">
+						<div id="slider" class="nivoSlider">
+							<img src="img/hotel.png" data-thumb="img/hotel.png"  />
+							<img src="img/hotel3.jpg"  data-transition="slideInLeft" />
+							<img src="img/salao.png" data-thumb="img/salao.png"    />
+							<img src="img/hotel2.png" data-thumb="img/hotel2.png"   />
+						</div>
+					</div>
+					<script type="text/javascript" src="script/jquery-1.7.1.min.js"></script>
+					<script type="text/javascript" src="script/jquery.nivo.slider.js"></script>
+					<script type="text/javascript">
+					$(window).load(function() {
+						$('#slider').nivoSlider();
+					});
+					</script>
+						<p>
+						Considerado um dos mais desejados resorts de ilha do mundo, o HOTEL PADILHA é o local perfeito para quem quer viver bem, aproveitar bem e comer bem. Oferece aos hóspedes opções que transformam a estada em momentos memoráveis em meio a coqueiros, fauna e flora exuberantes e vegetação nativa intocada. Todo um complexo de Esportes & Lazer, com passeios ecológicos, atividades para crianças, gastronomia variada, espaços de bem-estar e demais serviços preparados para você relaxar, descansar e sentir-se bem.
 
-<div id="estrutura">
-	<!-- Gera o Slider com as imagens-->
-    <div class="slider-wrapper theme-default">
-            <div id="slider" class="nivoSlider">
-                <img src="img/hotel.png" data-thumb="img/hotel.png"  />
-                <img src="img/hotel3.jpg"  data-transition="slideInLeft" />
-                <img src="img/salao.png" data-thumb="img/salao.png"    />
-                <img src="img/hotel2.png" data-thumb="img/hotel2.png"   />
-            </div>
-        </div>
-		<script type="text/javascript" src="script/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="script/jquery.nivo.slider.js"></script>
-    <script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
-    </script>
-
-		<p>
-		Considerado um dos mais desejados resorts de ilha do mundo, o HOTEL PADILHA é o local perfeito para quem quer viver bem, aproveitar bem e comer bem. Oferece aos hóspedes opções que transformam a estada em momentos memoráveis em meio a coqueiros, fauna e flora exuberantes e vegetação nativa intocada. Todo um complexo de Esportes & Lazer, com passeios ecológicos, atividades para crianças, gastronomia variada, espaços de bem-estar e demais serviços preparados para você relaxar, descansar e sentir-se bem.
-
-		Bem-vindo: a ilha é sua!
-	</p>
-	<p>
-		Sobre o Resort
-		O cenário paradisíaco e a integração com a natureza são inspiradores: 50 mil m2 de resort e 21 km de praia, em uma ilha com oito milhões de metros quadrados e 25 mil pés de coqueiros. São mais de 80 opções de lazer para todas as idades, incluindo campo de golfe profissional, quadras de tênis, campo de futebol, esportes náuticos e parque aquático completo. E o relax está garantido no SPA Comandatuba by Clarins.
-	</p>
-	<p>
-		Missão, Visão e Valores
-		Missão:
-		Melhorar continuamente o processo de prestação de serviço hoteleiros, de lazer, de eventos e ecoturismo, através:
-		Da percepção e das necessidades e expectativas dos clientes;
-		Da capacitação, satisfação e comprometimento dos funcionários com a gestão do negócio;
-		Da integração com a comunidade da região, conscientizando para a preservação do meio ambiente, higiene e melhoria da qualidade de vida;
-		Da busca de parceria com fornecedores.
-		Visando rentabilidade e perpetuação no negócio.
-	</p>
-	<p>
-		Visão:
-		Ser reconhecido pelo mercado global como marco de referência em excelência na hotelaria de Lazer e Eventos.
-	</p>
-	<p>
-		Valores:
-		Nossos valores estão apoiados em quatro grandes pilares:
-		Qualidade, nos produtos e serviços.
-		Respeito, pelo cliente, pelo fornecedor, pelo colaborador e pelo meio ambiente.
-		Meritocracia, no reconhecimento dos resultados.
-		Ética, em tudo que fazemos.
-	</p>
-			
-</div>
-</div>
-	</div>
-<div id="footer">
-<SPAN style="margin-top: 10px; text-align:center;  font-size: 12px;">&copy; Desenvolvido por Luís Claudio Padilha Junior. Todos os direitos reservados</SPAN>
-
-</div>	
-
-</body>
+						Bem-vindo: a ilha é sua!
+					</p>
+					<p>
+						Sobre o Resort
+						O cenário paradisíaco e a integração com a natureza são inspiradores: 50 mil m2 de resort e 21 km de praia, em uma ilha com oito milhões de metros quadrados e 25 mil pés de coqueiros. São mais de 80 opções de lazer para todas as idades, incluindo campo de golfe profissional, quadras de tênis, campo de futebol, esportes náuticos e parque aquático completo. E o relax está garantido no SPA Comandatuba by Clarins.
+					</p>
+					<p>
+						Missão:
+						Melhorar continuamente o processo de prestação de serviço hoteleiros, de lazer, de eventos e ecoturismo, através:
+						Da percepção e das necessidades e expectativas dos clientes;
+						Da capacitação, satisfação e comprometimento dos funcionários com a gestão do negócio;
+						Da integração com a comunidade da região, conscientizando para a preservação do meio ambiente, higiene e melhoria da qualidade de vida;
+						Da busca de parceria com fornecedores.
+						Visando rentabilidade e perpetuação no negócio.
+					</p>
+					<p>
+						Visão:
+						Ser reconhecido pelo mercado global como marco de referência em excelência na hotelaria de Lazer e Eventos.
+					</p>
+					<p>
+						Valores:
+						Nossos valores estão apoiados em quatro grandes pilares:
+						Qualidade, nos produtos e serviços.
+						Respeito, pelo cliente, pelo fornecedor, pelo colaborador e pelo meio ambiente.
+						Meritocracia, no reconhecimento dos resultados.
+						Ética, em tudo que fazemos.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+		<SPAN style="margin-top: 10px; text-align:center;  font-size: 12px;">&copy; Desenvolvido por Luís Claudio Padilha Junior. Todos os direitos reservados</SPAN>
+		</div>	
+	</body>
 </html>
