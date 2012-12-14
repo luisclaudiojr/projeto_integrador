@@ -34,9 +34,24 @@
     
 
 <div id="estrutura">
-		<center> <img src='img/hotel2.png'></center>
-	<p>
+	<!-- Gera o Slider com as imagens-->
+    <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="img/salao.jpg" data-thumb="img/salao.png"  />
+                <img src="img/quarto.png" data-thumb="script/images/quarto.png"  title="Nossos Quartos são equipados com os mais diversos tipos de tecnologia" />
+                <img src="img/sala.jpg" data-thumb="img/sala.jpg"  data-transition="slideInLeft"  title="Aqui você encontra as mais belas paisagens" />
+                <img src="img/paisagem.png" data-thumb="img/paisagem.png"  title="Aqui você encontra as mais belas paisagens" />
+            </div>
+        </div>
+		<script type="text/javascript" src="script/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="script/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 
+		<p>
 		Considerado um dos mais desejados resorts de ilha do mundo, o HOTEL PADILHA é o local perfeito para quem quer viver bem, aproveitar bem e comer bem. Oferece aos hóspedes opções que transformam a estada em momentos memoráveis em meio a coqueiros, fauna e flora exuberantes e vegetação nativa intocada. Todo um complexo de Esportes & Lazer, com passeios ecológicos, atividades para crianças, gastronomia variada, espaços de bem-estar e demais serviços preparados para você relaxar, descansar e sentir-se bem.
 
 		Bem-vindo: a ilha é sua!
